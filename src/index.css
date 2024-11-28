@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+}
+
+.foorder{
+  width: 100%;
+  background: rgb(223 133 115);
+  padding: 7px;
+  margin-top: 10px;
+  border-radius: 7px;
+  color: white;
+}
+.ant-table-wrapper .ant-table-thead >tr>th{
+  background: rgb(223 133 115);
+  color: #ffff;
+}
+.ant-table-wrapper .ant-table-cell, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table-thead>tr>th{
+  padding: 10px 10px !important;
+}
+.ant-table-wrapper .ant-table-thead >tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+  width: 0px !important;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-label >label{
+  font-weight: 200;
+}
